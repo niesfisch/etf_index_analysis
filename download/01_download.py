@@ -4,6 +4,8 @@ import time
 import requests
 from datetime import datetime, timedelta
 
+# only downloads new data and data in the past
+
 # Create the data directory if it doesn't exist
 script_dir = os.path.dirname(os.path.abspath(__file__))
 data_dir = os.path.join(script_dir, 'data')
