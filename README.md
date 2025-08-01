@@ -34,9 +34,9 @@ To set up the environment for running the Jupyter notebooks and Python scripts, 
 ```bash
 # i use pyenv to manage python versions
 # install and activate python 3.10
-pyenv install 3.10
-pyenv virtualenv 3.10 venv-3.10-msci
-pyenv activate venv-3.10-msci
+pyenv install 3.12.4
+pyenv virtualenv 3.12.4 venv-3.12.4-msci
+pyenv activate venv-3.12.4-msci
 
 # upgrade pip
 python -m pip install --upgrade pi
